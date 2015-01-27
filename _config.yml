@@ -18,6 +18,7 @@ style:
     article:
         even: "white"
         odd: "#222222"
+markdown: redcarpet
 
 #links:
 #  - github: "https://github.com/me/"
