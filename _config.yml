@@ -10,7 +10,7 @@ comments:
 #    isso: "comments.mysite.org"
 
     paginate: 3
-    baseurl: ""
+    baseurl: "/cs"
 
 style:
 #    body: "whitesmoke"
