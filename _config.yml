@@ -1,0 +1,31 @@
+title: "Random works"
+author: "Amarnath"
+description: "Cool stuff in CS"
+more: "More"
+url: "http://vaamarnath.co.in"
+#baseurl: "/contrast"
+
+comments:
+    #    disqus: "niklasbuschmann"
+#    isso: "comments.mysite.org"
+
+    paginate: 3
+    baseurl: ""
+
+style:
+#    body: "whitesmoke"
+    nav: "#181818"
+    article:
+        even: "white"
+        odd: "#222222"
+
+#links:
+#  - github: "https://github.com/me/"
+#  - twitter: "https://twitter.com/me/"
+#  - google-plus: "https://plus.google.com/+me"
+#  - reddit: "https://www.reddit.com/user/me/"
+#  - youtube: "https://www.youtube.com/user/me"
+#  - steam: "http://steamcommunity.com/id/me/"
+
+excerpt_separator: "\n\n\n"
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
