@@ -20,6 +20,10 @@ style:
         odd: "#222222"
 markdown: redcarpet
 
+sass:
+  compressed: true
+  sass_dir: _sass
+
 #links:
 #  - github: "https://github.com/me/"
 #  - twitter: "https://twitter.com/me/"
