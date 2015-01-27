@@ -9,8 +9,7 @@ comments:
     #    disqus: "niklasbuschmann"
 #    isso: "comments.mysite.org"
 
-    paginate: 3
-    baseurl: "/cs"
+baseurl: /cs
 
 style:
 #    body: "whitesmoke"
