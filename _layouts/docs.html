@@ -1,0 +1,38 @@
+---
+layout: default
+---
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+      jax: ["input/TeX","output/HTML-CSS"],
+      showProcessingMessages: true,
+      tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']],
+          displayMath: [['\\[','\\]'], ['$$','$$']],
+          processEnvironments: true
+      }
+  });
+  </script>
+  <script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+
+  <section class="docs">
+    <div class="grid">
+
+      {% include docs_contents_mobile.html %}
+
+      <div class="unit four-fifths">
+        <article>
+          <h1>{{ page.title }}</h1>
+          {{ content }}
+          {% include section_nav.html %}
+        </article>
+      </div>
+
+      {% include docs_contents.html %}
+
+      <div class="clear"></div>
+
+    </div>
+  </section>
